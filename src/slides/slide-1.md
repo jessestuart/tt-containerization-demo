@@ -1,5 +1,9 @@
-class: center, middle
+class: center, middle, inverse
 
-# Title
+# Containerization for Fun &amp; Profit
+
+.authorHeader[Jesse Stuart :: TodayTix]
+
+.authorHeader[21 April 2017]
 
 ---

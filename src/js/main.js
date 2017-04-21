@@ -13,7 +13,7 @@ var slideShow = remark.create({
     // Enable or disable navigating using scroll
     // Default: true
     // Alternatives: false
-    scroll: true,
+    scroll: false,
 
     // Enable or disable navigation using touch
     // Default: true
@@ -27,10 +27,10 @@ var slideShow = remark.create({
   },
 
   // Customize slide number label, either using a format string..
-  slideNumberFormat: 'Slide %current% of %total%',
+  slideNumberFormat: '%current% / %total%',
   // .. or by using a format function
   slideNumberFormat: function (current, total) {
-    return 'Slide ' + current + ' of ' + total;
+    return current + ' / ' + total;
   },
 
   // Enable or disable counting of incremental slides in the slide counting
