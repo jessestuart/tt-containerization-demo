@@ -26,3 +26,9 @@ class: center, middle, inverse
 # The "Lift and Shift"
 
 > With the monolithic application running in a container, the development team can start breaking it down piece by piece. They can move some functions out of the monolith, and begin deploying them as loosely coupled services in Docker containers.
+
+---
+
+class: center, middle, inverse
+
+# Get ya demo on
