@@ -62,12 +62,4 @@ class: center, middle
 
 ![](https://cl.ly/2V0k272N3i1a/containers-vs-VM.png)
 
-
-
-# Recap: Advantages of a Container
-
-- Environment consistency.
-
-- Developer productivity.
-
-- Low-risk way to ease into "breaking up the monolith".
+---
