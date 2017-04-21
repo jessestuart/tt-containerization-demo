@@ -36,6 +36,14 @@ class: center, middle, inverse
 
 ---
 
+# What is a Container **not**?
+
+- Ubuntu 16.10 VM time to boot: > 1min
+
+- Ubuntu 16.10 Docker Image time to boot: < 1sec
+
+---
+
 # What **is** a Container?
 
 - A Container is an OS-level virtualization.
