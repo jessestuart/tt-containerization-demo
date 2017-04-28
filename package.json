@@ -1,31 +1,26 @@
 {
-  "name": "remark-boilerplate",
-  "version": "0.1.0",
-  "description": "A boilerplate to create presentations using remark, Gulp, Stylus and more",
-  "homepage": "https://github.com/brenopolanski/remark-boilerplate#readme",
+  "name": "tt-containerization-demo",
+  "version": "1.0.0",
+  "description": "A brief introduction to containerization tech in 2017; built with remark.js.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brenopolanski/remark-boilerplate.git"
+    "url": "git+https://github.com/jessestuart/tt-containerization-demo.git"
   },
   "keywords": [
     "remark",
     "markdown",
     "presentation",
-    "gulp",
-    "stylus",
-    "jade",
-    "highlight"
+    "docker",
+    "containerization",
+    "devops"
   ],
   "author": {
-    "name": "Breno Polanski",
-    "email": "breno.polanski@gmail.com",
-    "web": "http://brenopolanski.com",
-    "twitter": "brenopolanski"
+    "name": "Jesse Stuart",
+    "email": "hi@jessestuart.com",
+    "web": "http://jessestuart.com",
+    "twitter": "jesse_stuart"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brenopolanski/remark-boilerplate/issues"
-  },
   "scripts": {
     "clean": "rm -r node_modules/; rm -r build/"
   },
