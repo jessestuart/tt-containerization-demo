@@ -71,3 +71,15 @@ class: center, middle
 ![](https://cl.ly/2V0k272N3i1a/containers-vs-VM.png)
 
 ---
+
+class: center, middle
+
+![](https://cl.ly/0z1o2f410s3S/Screen%20Shot%202017-04-21%20at%2012.01.33.png)
+
+---
+
+class: center, middle
+
+![](https://cl.ly/1E2e3I0j3y0u/Screen%20Shot%202017-04-21%20at%2011.58.06.png)
+
+---
