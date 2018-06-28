@@ -22,7 +22,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "clean": "rm -r node_modules/; rm -r build/"
+    "clean": "rm -r node_modules/; rm -r build/",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
@@ -39,5 +41,9 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "poststylus": "^0.2.3"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.85.0"
   }
 }
