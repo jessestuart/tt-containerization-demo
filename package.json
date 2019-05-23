@@ -22,7 +22,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "clean": "rm -r node_modules/; rm -r build/"
+    "clean": "rm -r node_modules/; rm -r build/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
@@ -32,12 +34,16 @@
     "gulp-concat": "^2.6.0",
     "gulp-csscomb": "^3.0.6",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-imagemin": "^2.4.0",
+    "gulp-imagemin": "^3.0.0",
     "gulp-jade": "^1.1.0",
     "gulp-plumber": "^1.1.0",
     "gulp-stylus": "^2.3.1",
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "poststylus": "^0.2.3"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.167.0"
   }
 }
