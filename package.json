@@ -25,7 +25,7 @@
     "clean": "rm -r node_modules/; rm -r build/"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.3",
+    "autoprefixer": "^10.0.0",
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.1",
     "gulp-cache": "^0.4.2",
